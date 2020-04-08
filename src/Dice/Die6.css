@@ -1,0 +1,27 @@
+.Die {
+  margin: 10px;
+  padding: 10px;  
+  background-color: black;  
+  width: 104px;  
+  height: 104px;  
+  border-radius: 10%;
+}
+
+.Dot {
+  display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+}
+
+.Die6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Die6 .Column{
+  display: flex;
+  flex-direction: Column;
+  justify-content: space-between;
+}

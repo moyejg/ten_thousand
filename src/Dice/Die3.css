@@ -1,0 +1,12 @@
+.Die3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Die3 .Dot:nth-of-type(1) {
+  align-self: flex-end;
+}
+
+.Die3 .Dot:nth-of-type(2) {
+  align-self: center;
+}

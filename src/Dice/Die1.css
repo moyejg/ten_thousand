@@ -1,0 +1,22 @@
+.Die {
+	margin: 10px;
+	padding: 10px;  
+  background-color: black;  
+  width: 104px;  
+  height: 104px;  
+  border-radius: 10%;
+}
+
+.Dot {
+	display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+}
+
+.Die1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
